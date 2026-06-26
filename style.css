@@ -366,7 +366,8 @@ footer {
 
   header {
     width: 100%;
-    background-image: cover;
+    background-size: cover;
+    background-image: url(./images/bg-header-desktop.png);
     display: flex;
     flex-direction: column;
   }
@@ -519,7 +520,7 @@ footer {
   .tool p {
     font-size: 27px;
     width: 110%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   .companies {
@@ -528,7 +529,7 @@ footer {
     justify-content: center;
     align-self: center;
     /* padding-left: 120px; */
-    gap: 100px;
+    gap: 50px;
   }
 
   .clipboard h1 {
